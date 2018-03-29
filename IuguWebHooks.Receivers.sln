@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IuguWebHooks.Receivers", "IuguWebHooks.Receivers\IuguWebHooks.Receivers.csproj", "{BD6F0D3E-3580-466E-999E-AEFD82021503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IuguWebHooks.Receivers.Test", "IuguWebHooks.Receivers.Test\IuguWebHooks.Receivers.Test.csproj", "{E52B2285-019F-43D8-9A39-7B5C5F5EF681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78C5DCC5-74D8-44BE-8D56-A7CA660053A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{4252CCFC-DADF-4CDD-BD5B-FBFDE5F31843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CodeAnalysis|Any CPU = CodeAnalysis|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6F0D3E-3580-466E-999E-AEFD82021503}.CodeAnalysis|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6F0D3E-3580-466E-999E-AEFD82021503}.CodeAnalysis|Any CPU.Build.0 = Release|Any CPU
+		{BD6F0D3E-3580-466E-999E-AEFD82021503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6F0D3E-3580-466E-999E-AEFD82021503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6F0D3E-3580-466E-999E-AEFD82021503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6F0D3E-3580-466E-999E-AEFD82021503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681}.CodeAnalysis|Any CPU.ActiveCfg = Release|Any CPU
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681}.CodeAnalysis|Any CPU.Build.0 = Release|Any CPU
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD6F0D3E-3580-466E-999E-AEFD82021503} = {78C5DCC5-74D8-44BE-8D56-A7CA660053A0}
+		{E52B2285-019F-43D8-9A39-7B5C5F5EF681} = {4252CCFC-DADF-4CDD-BD5B-FBFDE5F31843}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0A11DB-5190-4D8D-A9F9-87063FDACECF}
+	EndGlobalSection
+EndGlobal
