@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IuguWebHooks.Receivers</id>
+    <version>1.0.0</version>
+    <authors>Haruno Kenobi</authors>
+    <owners>Haruno Kenobi</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>https://github.com/HarunoKenobi/IuguWebHooksReceivers</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WebHooks configuration to Iugu</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>WebHooks Iugu iugu-net</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebHooks.Common" version="1.2.1" />
+      <dependency id="Microsoft.AspNet.WebHooks.Receivers" version="1.2.1" />
+      <dependency id="Newtonsoft.Json" version="6.0.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="IuguWebHooks.Receivers\bin\Release\IuguWebHooks.Receivers.dll" target="lib\net452" />
+    <file src="IuguWebHooks.Receivers\bin\Release\IuguWebHooks.Receivers.pdb" target="lib\net452" />
+  </files>
+</package>
